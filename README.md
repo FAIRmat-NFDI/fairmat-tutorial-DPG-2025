@@ -6,7 +6,8 @@ FAIRmat Tutorial DPG 2025: How to Use NOMAD's Workflow Utilities to Improve Data
 
 ### Description:
 
-
+> ℹ️ **Note**
+> This tutorial is archived. See [NOMAD Tutorial Workflow](https://fairmat-nfdi.github.io/nomad-tutorial-workflows/latest) for updated versions.
 
 ### How to launch locally for debugging
 
