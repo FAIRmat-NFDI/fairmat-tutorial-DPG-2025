@@ -1,5 +1,8 @@
 # How to Use NOMAD's Workflow Utilities to Improve Data Management and Facilitate Discovery in Materials Science
 
+!!! warning "Archived"
+    This tutorial has been archived. See [NOMAD Tutorial Workflow](https://fairmat-nfdi.github.io/nomad-tutorial-workflows/latest){:target="\_blank"} for updated versions.
+
 NOMAD [[nomad-lab.eu](nomad-lab.eu){:target="\_blank"}] [1] is an open-source, community-driven data infrastructure that supports automated (meta)data extraction from a wide range of simulations, including ab initio and advanced many-body calculations, as well as molecular dynamics simulations. NOMAD also provides extensive customization capabilities to support experimental data. NOMAD allows users to store both standardized and custom complex workflows, which streamline data provenance storage and analysis, facilitating efficient curation of AI-ready datasets. This tutorial series will focus on recently developed workflow functionalities and utilities within the NOMAD infrastructure, with a step-by-step guide for storing a custom project workflow that contains tasks involving a variety of distinct data sources. Attendees can then use this knowledge to transform their day-to-day project data management, or even to interface with the NOMAD repository in a high-throughput fashion, opening improved discovery pipelines by leveraging the benefits of NOMAD’s comprehensive and FAIR-compliant data management system [2]. Attendees are welcome to simply watch the demonstration or to follow along on their laptops. For the latter, preparation instructions will be provided in advance below.
 
 [1] Scheidgen, M. et al., JOSS 8, 5388 (2023).
@@ -45,14 +48,14 @@ Open a terminal and create a virtual environment with python==3.11 (It may be po
 
     ```console
     sudo dnf install python3.11
-    ```    
+    ```
     === "macOS"
 
     ```console
     brew install python@3.11
     ```
     === "Windows PowerShell"
-    Download the installer from the [official Python website](https://www.python.org/downloads/release/python-3110/) and run it. 
+    Download the installer from the [official Python website](https://www.python.org/downloads/release/python-3110/) and run it.
     Make sure to check the box that says "Add Python 3.11 to PATH" during installation.
 
 Activate the Python virtual environment:
